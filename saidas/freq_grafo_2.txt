@@ -1,0 +1,10 @@
+
+Distancia Quantidade          Frequencia
+1,00      ;     22188;        0,0444204211;
+2,00      ;    412215;        0,8252552748;
+3,00      ;     65097;        0,1303243190;
+
+O numero de distancias e: 499500.0
+{1.0=44376, 3.0=130194, 2.0=824430}
+
+A distancia media e: 2.085904
