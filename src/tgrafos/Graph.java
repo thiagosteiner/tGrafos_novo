@@ -1131,27 +1131,19 @@ public class Graph {
                 }
             }
         }
-
         //vertice marcado 0 será irrelevante para nosso sistema.
         for (int z = 0; z <= nVertices; z++) {
             verticesMarcados.add(z, Boolean.FALSE);
-
         }
-
-
         verticesMarcados.set(fronteiraInicio, Boolean.TRUE); // vértice i já foi adicionado ao menor caminho
         verticesMarcados.set(fronteiraFinal, Boolean.TRUE); // vértice j já foi adicinoado ao menor caminho
-
         for (int u = 0; u < nVertices; u++) {
-
             cicloHamiltoniano.add(u, 0);
         }
         cicloHamiltoniano.set(0, fronteiraInicio);// adicionando vértice i ao ciclo hamiltoniano
         cicloHamiltoniano.set(1, fronteiraFinal);// adicinoando vértice j ao ciclo hamiltoniano
-
         posicaoFronteiraInicio = 0; // posição da froonteira de início no vetor de ciclo hamiltoniano
         posicaoFronteiraFinal = 1; // posição da fronteira de final no vetor de ciclo hamiltoniano
-
         int a, b; // variáveis de controle
         Boolean aindaFalta = true;
         Boolean atualiza;

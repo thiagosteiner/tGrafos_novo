@@ -127,7 +127,7 @@ public class IO {
     
     public void f(String nome) throws FileNotFoundException, IOException{
        
-        File file = new File(dir, nome);
+        File file = new File(nome);
         FileInputStream in = new FileInputStream(file);
         InputStreamReader b = new InputStreamReader(in);
         readInput(b);
