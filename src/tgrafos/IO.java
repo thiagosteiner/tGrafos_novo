@@ -125,7 +125,7 @@ public class IO {
         }
     }
     
-    public void f(String nome) throws FileNotFoundException, IOException{
+    public void ler_grafo_TSP(String nome) throws FileNotFoundException, IOException{
        
         File file = new File(nome);
         FileInputStream in = new FileInputStream(file);

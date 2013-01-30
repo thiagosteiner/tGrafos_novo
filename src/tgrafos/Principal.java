@@ -78,7 +78,7 @@ public class Principal {
 
 //        io.dir = "C:/Users/Administrador/Documents/Dropbox/Teoria Grafos/Trabalhos/Trabalhos/tGrafos_novo/entradas";
 //        io.dirS = "C:/Users/Administrador/Documents/Dropbox/Teoria Grafos/Trabalhos/Trabalhos/tGrafos_novo/saidas";
-        io.f("C:/Users/Administrador/Documents/Dropbox/Teoria Grafos/Trabalhos/Trabalhos/tGrafos_novo/entradas/points-2500.txt");  // define o arquivo do grafo a ser utilizado
+        io.ler_grafo_TSP("C:/Users/Administrador/Documents/Dropbox/Teoria Grafos/Trabalhos/Trabalhos/tGrafos_novo/entradas/points-2500.txt");  // define o arquivo do grafo a ser utilizado
         Graph grafo = io.grafo;
 //        grafo.modo_de_representacao = 'l';
         double init = System.currentTimeMillis();
