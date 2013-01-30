@@ -1241,32 +1241,6 @@ public class Graph {
             }
         }
         System.out.println("Custo = " + custo + "\n");
-        Graph.setcustoTSP(custoTSP);
+        Graph.setcustoTSP(custo);
     }
-//    public void escreve_arquivo_TSP(FileWriter writer) throws IOException {
-//
-//        //FileWriter writer = new FileWriter(new File(dir, "saida.txt"));
-//        PrintWriter saida = new PrintWriter(writer, true);
-//
-//
-//        determinaCicloHamiltoniano();
-//
-//        saida.println("caminho: \n");
-//
-//
-//
-//        for (int a = 0; a < cicloHamiltoniano.size(); a++) {
-//
-//            saida.println(cicloHamiltoniano.get(a));
-//        }
-//
-//
-//        saida.println("Custo = " + Graph.custoTSP + "\n");
-//
-//
-//        saida.close();
-//        writer.close();
-//
-//
-//    }
 }

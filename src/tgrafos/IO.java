@@ -382,4 +382,32 @@ public class IO {
         saida.close();
         writer.close();
     }
+    
+     public void escreve_arquivo_TSP(Graph grafo,String arquivo_saida) throws IOException {
+
+        FileWriter writer = new FileWriter(new File(arquivo_saida));
+        PrintWriter saida = new PrintWriter(writer, true);
+
+
+        //grafo.determinaCicloHamiltoniano();
+
+        saida.println("caminho: \n");
+
+
+
+        for (int a = 0; a < grafo.cicloHamiltoniano.size(); a++) {
+
+            saida.println(grafo.cicloHamiltoniano.get(a));
+        }
+
+
+        saida.println("Custo = " + Graph.custoTSP + "\n");
+
+
+        saida.close();
+        writer.close();
+
+
+    }
+    
 }
